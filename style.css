@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6f42c1, #007bff);
+  color: white;
+  text-align: center;
+}
+.container {
+  margin-top: 80px;
+}
+.animate-title {
+  font-size: 3rem;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #39ff14;
+  }
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #39ff14;
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px;
+}

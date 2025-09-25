@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - LearnHub</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js"></script>
+    <script type="module" src="js/dashboard.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to LearnHub Dashboard</h1>
+    <h2>Upcoming Webinars</h2>
+    <ul id="webinar-list"></ul>
+  </body>
+</html>
+<ul id="webinar-list"></ul>
+<button id="register-btn">Register for Selected Webinar</button>
+<div id="confirmation-message" style="display: none">
+  <p>Registration successful!</p>
+</div>
+<div class="footer">
+  <p>&copy; 2024 LearnHub. All rights reserved.</p>
+</div>
